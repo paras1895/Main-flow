@@ -1,0 +1,30 @@
+This file contains the documentation for the code for Task1
+
+1. The sum of two numbers adds two numbers using the '+' operator.
+
+2. Odd or Even is checked by checking if the remainder after division by 2 is 0.
+
+3. The factorial of a number is calculated using a loop and multiplying the numbers.
+
+4. The fibonacci function creates a list with initial elements [0, 1] and then in loop adds
+   the previous two elements and appends them at end of list
+
+5. Reversing a string uses split operation ([::-1])
+
+6. Palindrome uses similar approach for reversing string as previous question and then
+   checks if it is equal to the original string
+
+7. The leap year function checks the following:
+	1. Checks if year is divisible by 4
+	2. If yes check if not divisible by 100
+	3. If not the leap year or non leap year
+	4. Then checks if not divisible by 4 then check if divisible by 400
+	   if yes then leap year else non leap year
+
+8. To check if number is armstrong number first number is converted to string for counting
+   number of digits and then each digit is raised to number of digits and sum is stored and
+   then it is compared with original number.
+
+9. The encryption program uses simple encryption and decryption method by taking
+   a shift amount and then shifts each character by that amount in alphabetic order
+   and to decrypt it again subtract the same shift amount
